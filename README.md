@@ -19,6 +19,8 @@ It is intended to demonstrate my ability to design and implement cloud infrastru
 
 ## How to Use
 1. Log in to the Azure CLI: az login
+2. Upload the contents of thhe scripts folder
 2. Create a Resource Group: az group create --name DemoRG --location westeurope
 3. Deploy the template: vnet-vnet-deploy-arm
 az deployment group create --resource-group DemoRG --template-file vnet-vm-deploy.json --parameters @vnet-vm-arm-parameters.json
+
