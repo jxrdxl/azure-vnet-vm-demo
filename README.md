@@ -1,24 +1,24 @@
 # Azure VNet + VM Demo
 
-## Over het project
-Dit project toont mijn kennis van **Azure Virtual Networks** en **VM deployment** via ARM templates. 
-Het is bedoeld om te laten zien dat ik cloud-infrastructuur kan ontwerpen en implementeren.
+## About the Project
+This project demonstrates my knowledge of Azure Virtual Networks and VM deployment via ARM templates.
+
+It is intended to demonstrate my ability to design and implement cloud infrastructure.
 
 ## Features
-- Virtual Network (VNet) met subnet
+- Virtual Network (VNet) with subnet
 - Network Security Group (NSG)
 - Windows Server VM deployment
-- Basis networking setup in Azure
+- Basic networking setup in Azure
 
-## Skills getoond
-- Azure Networking & VM deployment
+## Skills Demonstrated
+- Azure Networking & VM Deployment
 - Infrastructure as Code (ARM templates)
-- IT automatisering & scripting
-- Documentatie & project setup
+- IT Automation & Scripting
+- Documentation & Project Setup
 
-## Hoe te gebruiken
-1. Login bij Azure CLI: `az login`
-2. Maak een Resource Group aan: `az group create --name DemoRG --location westeurope`
-3. Deploy de template:  
-   ```bash
-   az deployment group create --resource-group DemoRG --template-file vnet-vm-deploy.json --parameters @parameters.json
+## How to Use
+1. Log in to the Azure CLI: az login
+2. Create a Resource Group: az group create --name DemoRG --location westeurope
+3. Deploy the template: vnet-vnet-deploy-arm
+az deployment group create --resource-group DemoRG --template-file vnet-vm-deploy.json --parameters @vnet-vm-arm-parameters.json
